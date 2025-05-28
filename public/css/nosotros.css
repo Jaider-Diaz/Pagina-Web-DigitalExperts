@@ -1,0 +1,181 @@
+
+.tituloEquiTrabajo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.parrafoDescripcionNosotros{
+    display: flex;
+    width: 100%;
+    max-width:600px ;
+    margin: 0 auto ;
+    text-align: center;
+}
+
+.contenedorEquipoTrabajo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.subContenedorEquipoTrabajo1,
+.subContenedorEquipoTrabajo3{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.spanEquipoTrabajo,
+.h3EquipoTrabajo{
+    text-align: center;
+}
+
+/*codigo seccion ingeniero de sistemas*/
+
+.contenedorImagenIngeniera{
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding:30px;
+    transition: transform .5s ease;
+}
+
+.contenedorImagenIngeniera:hover{
+    transform: scale(1.1);
+}
+
+.imagenEquipoeTrabajo1{
+    width: 100%;
+    max-width: 250px;
+}
+
+.descripcionIngeniesaSistemas{
+    width: 100%;
+    max-width: 700px;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+/*codigo de analista de computacion*/
+
+
+.subContenedorEquipoTrabajo2{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: row-reverse;
+}
+
+.contedorImagenAnalistaComputacion{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    transition: transform .8s ease;
+}
+
+.contedorImagenAnalistaComputacion:hover{
+    transform: scale(1.1);
+}
+
+.imagenEquipoeTrabajo2{
+    width: 100%;
+    max-width: 250px;
+}
+
+.descripcionAnalistaComputacion{
+    width: 100%;
+    max-width: 700px;
+    text-align: justify;
+}
+
+/*codigo experto en redes*/
+
+.subContenedorEquipoTrabajo3{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.contenedorImagenExpertoRedes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    transition: transform .8s ease;
+}
+
+.contenedorImagenExpertoRedes:hover{
+    transform: scale(1.1);
+}
+
+
+.imagenEquipoeTrabajo3{
+    width: 100%;
+    max-width: 250px;
+}
+
+.descripcionExpertoRedes{
+    width: 100%;
+    max-width: 700px;
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 450px) {
+    .tituloEquiTrabajo{
+        font-size: 1.3rem;
+    }
+
+    .parrafoDescripcionNosotros{
+        text-align: justify;
+        padding: 20px;
+    }
+
+    .contenedorEquipoTrabajo{
+        flex-direction: column;
+    }
+
+    .subContenedorEquipoTrabajo1,
+    .subContenedorEquipoTrabajo2,
+    .subContenedorEquipoTrabajo3{
+        flex-direction: column;
+        padding: 0 20px 0 20px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .tituloEquiTrabajo{
+        font-size: 2.5rem;
+    }
+
+    .parrafoDescripcionNosotros{
+        text-align: justify;
+        padding: 20px;
+    }
+
+    .contenedorEquipoTrabajo{
+        flex-direction: column;
+    }
+
+    .subContenedorEquipoTrabajo1,
+    .subContenedorEquipoTrabajo2,
+    .subContenedorEquipoTrabajo3{
+        flex-direction: column;
+        padding: 0 20px 0 20px;
+    }
+}
+
+
+
+
+
+
+

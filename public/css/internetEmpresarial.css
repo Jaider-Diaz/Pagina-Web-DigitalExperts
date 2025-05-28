@@ -1,0 +1,142 @@
+/*codigo planes internet empresarial*/
+.internet-empresarial {
+    padding: 40px;
+    text-align: center;
+}
+
+.tituloInternetEmpresarial {
+    color: #00c3ff;
+}
+
+.internet-empresarial .tituloInternetEmpresarial {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.descripcion-internet {
+    font-size: 1em;
+    margin-bottom: 30px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.planes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plan-card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 3px 3px 3px #1d3557;
+    transition: transform 0.3s ease;
+}
+
+.plan-card:hover {
+    transform: scale(1.05);
+    border-color: #1d3557;
+}
+
+.plan-card .h3InternetEmpresarial {
+    font-size: 1.3em;
+    color: #1d3557;
+    margin-bottom: 10px;
+}
+
+.plan-card .velocidad {
+    font-size: 1.1em;
+    color: #457b9d;
+    margin-bottom: 5px;
+}
+
+.plan-card .precio {
+    font-size: 1.1em;
+    color: #e63946;
+    margin-bottom: 15px;
+}
+
+.plan-card .ulInternetEmpresarial {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.plan-card .ulInternetEmpresarial .liInternetEmpresarial {
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 0.95em;
+}
+
+/*codigo del boton para solicitar precio planes */
+
+.contenedorBotonPlanesInternetEmpresarial {
+    display: grid;
+    place-items: center;
+}
+
+.botonPlanes {
+    width: 100%;
+    max-width: 150px;
+    margin-top: 10px;
+    background: #00c3ff;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+.botonPlanes .aPlanes {
+    text-decoration: none;
+    color: white;
+}
+
+.botonPlanesPlanEstándarPyme {
+    width: 100%;
+    max-width: 150px;
+    margin-top: 35px;
+    background: #00c3ff;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+.botonPlanesPlanEstándarPyme .aPlanes {
+    text-decoration: none;
+    color: white;
+}
+
+.botonPlanesPlanCorporativo,
+.botonPlanesPlanEjecutivo {
+    width: 100%;
+    max-width: 150px;
+    margin-top: 35px;
+    background: #00c3ff;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+.botonPlanesPlanCorporativo,
+.botonPlanesPlanEjecutivo .aPlanes {
+    text-decoration: none;
+    color: white;
+}
+
+.botonPlanesPlanCorporativo .aPlanes {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 450px) {
+    .tituloInternetEmpresarial {
+        font-size: 1.1em !important;
+    }
+}
+
+
+@media screen and (max-width: 768px) {}

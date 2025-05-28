@@ -1,0 +1,139 @@
+body {
+    background-image: url(/public/image/imagen\ matenimiento\ soporte\ tecnico.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tituloMantenimientoSoporte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    color: #00c3ff;
+}
+
+.descripcionMantenimientoSoporte {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    margin-left: 18%;
+    margin-top: 20px;
+}
+
+/* Sección general */
+.soporte {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+.soporte p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* Contenedor de tarjetas */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+/* Tarjetas individuales */
+.card {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    padding: 20px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 7px 5px 3px black;
+}
+
+.imagenDiagnostico,
+.imagenSoportePreventivo,
+.imagenSoporteCorrectivo {
+    width: 140px;
+    margin-bottom: 15px;
+}
+
+.h3SoporteTecnico {
+    font-size: 1.3rem;
+    color:#00c3ff;
+    margin-bottom: 10px;
+}
+
+.pSoporteTecnico {
+    font-size: 1rem;
+    color: #444;
+}
+
+/* Contacto final */
+.soporte-contacto {
+    margin-top: 40px;
+}
+
+
+.pSoporteContacto {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.btn-cotizar {
+    background-color: #00c3ff;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cotizar:hover {
+    background-color: #0066cc;
+}
+
+@media screen and (max-width: 450px) {
+    .tituloMantenimientoSoporte{
+        font-size: 1.2em !important;
+    }
+
+    .descripcionMantenimientoSoporte{
+        max-width: 600px;
+        margin-left: 0;
+        text-align: justify;
+        padding: 0 15px 0 15px;
+    }
+
+    .pSoporteContacto{
+        font-size: 1.2em;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .tituloMantenimientoSoporte{
+        font-size: 2em !important;
+        
+    }
+
+    .descripcionMantenimientoSoporte{
+        max-width: 600px;
+        margin-left: 80px;
+        text-align: justify;
+        padding: 0 15px 0 15px;
+    }
+
+    .pSoporteContacto{
+        font-size: 1.2em;
+        margin-bottom: 30px;
+    }
+}

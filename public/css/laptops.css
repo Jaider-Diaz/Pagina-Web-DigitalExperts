@@ -1,0 +1,231 @@
+body{
+    background-image: url(/public/image/Imagen\ fondo\ laptop\ main.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+}
+
+.contenedorParrafoLaptops{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.tituloLaptops{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: #00c3ff;
+}
+
+.parrafoLaptops{
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    color: black;
+}
+
+.contendorLaptops{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 70px;
+}
+
+.h2Laptops{
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+    margin-bottom: 30px;
+    color: #00c3ff;
+}
+
+.h3Laptops{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #00c3ff;
+}
+
+
+/*codigo laptops de oficina*/
+.contenedorTrabajoOficina{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    margin: auto 0;
+    background-color: rgba(255, 255, 255, 0.942);
+    border-radius: 20px;
+    padding: 32px;
+    color: black;
+    transition: transform 0.5s ease;
+}
+
+.contenedorTrabajoOficina:hover{
+    box-shadow: 3px 7px 5px black;
+    transform: translateY(-10px);
+}
+
+.ulLaptopsOficina{
+    margin-left: 25px;
+    color: black;
+}
+
+.liLaptopsOficina::marker{
+    color: black;
+}
+
+.liLaptopsOficina{
+    padding: 5px;
+}
+
+.aLaptopsOficina{
+    text-decoration: none;
+    color: black;
+}
+
+/*codigo laptops de  diseño y edicion*/
+.contenedorDiseñoEdicion{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    margin: auto 0;
+    background-color: rgba(255, 255, 255, 0.942);
+    border-radius: 20px;
+    padding: 25px;
+    color: black;
+    transition: transform 0.5s ease;
+}
+
+.contenedorDiseñoEdicion:hover{
+    box-shadow: 3px 7px 5px black;
+    transform: translateY(-10px);
+}
+
+.ulLaptopsDiseño{
+    margin-left: 30px;
+}
+
+.liLaptopsDiseño::marker{
+    color: black;
+}
+
+.liLaptopsDiseño{
+    padding: 5px;
+}
+
+.aLaptopsDiseño{
+    text-decoration: none;
+    color: black;
+}
+
+/*codigo laptops para estudiantes*/
+.contenedorEstudiantes{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    margin: auto 0;
+    background-color: rgba(255, 255, 255, 0.942);
+    border-radius: 20px;
+    padding: 40px;
+    color: black;
+    transition: transform 0.5s ease;
+}
+
+.contenedorEstudiantes:hover{
+    box-shadow: 3px 7px 5px black;
+    transform: translateY(-10px);
+}
+
+.ulLaptopsEstudiantes{
+margin-left: 55px;
+}
+
+.liLaptopsEstudiantes::marker{
+    color: black;
+}
+
+.liLaptopsEstudiantes{
+    padding: 5px;
+}
+
+.aLaptopsEstudiantes{
+    text-decoration: none;
+    color: black;
+}
+
+/*codigo laptops para estudiantes*/
+.contenedorGamer{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    margin: auto 0;
+    background-color: rgba(255, 255, 255, 0.942);
+    border-radius: 20px;
+    padding: 25px;
+    color: black;
+    transition: transform 0.5s ease;
+}
+
+.contenedorGamer:hover{
+    box-shadow: 3px 7px 5px black;
+    transform: translateY(-10px);
+}
+
+.ulLaptopsGamer{
+    margin-left: 22px;
+}
+
+.liLaptopsGamer::marker{
+    color: black;
+}
+
+.liLaptopsGamer{
+    margin: 10px;
+}
+
+.aLaptopsGamer{
+    text-decoration: none;
+    color:black;
+}
+
+.spanLaptops{
+    text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+    .parrafoLaptops{
+        color: white;
+        text-align: justify;
+        padding: 0 15px 0 15px;
+    }
+
+    .h2Laptops{
+        text-align: center;
+    }
+
+    .contendorLaptops{
+        gap: 30px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .parrafoLaptops{
+        color: white;
+        text-align: justify;
+        padding: 0 15px 0 15px;
+    }
+
+    .h2Laptops{
+        text-align: center;
+    }
+
+    .contendorLaptops{
+        gap: 30px;
+    }
+}

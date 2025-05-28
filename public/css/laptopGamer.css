@@ -1,0 +1,57 @@
+body{
+    background-image: url(/public/image/laptops.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*codigo de laptops oficina y trabajo apple*/
+.contenedorLaptopGamer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 300px;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.aLaptopGamer{
+    text-decoration: none;
+    color: white;
+}
+
+.subContenedorLaptopGamer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    transition-duration: 1s;
+}
+
+.imagenLaptopGamer{
+    width: 100%;
+    max-width: 300px;
+}
+
+.subContenedorLaptopGamer:hover{
+    padding: 10px;
+    border-radius: 20px;
+    transform: scale(1.2);
+}
+
+.imagenLaptopGamer1{
+    width: 100%;
+    max-width: 400px;
+
+}
+
+.subContenedorLaptopOficnaTrabajo1:hover{
+    padding: 10px;
+    border-radius: 20px;
+    transform: scale(1.2);
+}
+
+

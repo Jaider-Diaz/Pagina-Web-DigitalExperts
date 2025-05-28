@@ -1,0 +1,136 @@
+.contenedorParrafoServicios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.parrafoServicios {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.contenedorServicios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 70px;
+}
+
+.contenedorLaptop,
+.contenedorMonitores,
+.contenedorProcesadores,
+.contenedorInternet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 450px;
+}
+
+.imagenLaptop {
+    width: 100%;
+    max-width: 300px;
+    object-fit: fill;
+}
+
+.tituloServicios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.h3Servicios {
+    padding: 15px;
+}
+
+.aServicios {
+    color: #00c3ff;
+}
+
+.contendorBotonServicio {
+    display: grid;
+    place-items: center;
+}
+
+.botonServicios {
+    width: 250px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: #00c3ff;
+}
+
+.botonServicios:hover {
+    background-color: #1ab9ea;
+}
+
+
+.aServicioBoton {
+    text-decoration: none;
+    color: white;
+}
+
+.contendorBotonServicio1 {
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+}
+
+.botonServicios1 {
+    width: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 53px;
+    background-color: #00c3ff;
+}
+
+.botonServicios1:hover {
+    background-color: #1ab9ea;
+}
+
+
+.aServicioBoton1 {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 450px) {
+    .parrafoServicios {
+        text-align: justify;
+        padding: 0 15px 0 15px;
+    }
+
+    .contenedorLaptop,
+    .contenedorMonitores,
+    .contenedorProcesadores,
+    .contenedorInternet {
+        padding: 0 15px 0 15px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .parrafoServicios {
+        text-align: justify;
+        padding: 0 15px 0 15px;
+    }
+
+    .contenedorLaptop,
+    .contenedorMonitores,
+    .contenedorProcesadores,
+    .contenedorInternet {
+        padding: 0 15px 0 15px;
+        max-width: 700px;
+    }
+}

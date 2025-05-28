@@ -1,0 +1,285 @@
+.contenedorInternet{
+    background-image: url(/public/image/Imagen\ fondo\ seccion\ internet.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+    z-index: -1;
+    
+}
+
+.contenedorParrafoInternetIndex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.parrafoInternetIndex{
+    width: 600px;
+    text-align: center;
+}
+
+
+/* codigo interne plan empresarial*/
+
+.contenedorParrafoInternetIndex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.imagenInternetEmpresarial1{
+    width: 100%;
+    max-width: 30%;  
+    animation-name: internetEmpresarial;
+    animation-duration: 1s;
+    animation-timing-function: ease ;
+}
+
+.spanInternetEmpresarial,
+.spanInternetEmpresarial{
+    text-align: center;
+    width: 400px;
+}
+
+.aInternetEmpresarial{
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes internetEmpresarial{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+/* codigo interne plan satelital*/
+.contenedorParrafoInternetIndex2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.spanInternetSatelital,
+.h3InternetSatelital{
+    text-align: center;
+    width: 400px;
+}
+
+.imagenInternetSatelital{
+    width: 350px;
+    animation-name: internetSatelital ;
+    animation-duration: 3s;
+    animation-timing-function: ease ;
+}
+
+.aInternetSatelital{
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes internetSatelital{
+    from{
+        transform: translateX(-150%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+
+}
+
+/* codigo interne plan hogar*/
+.contenedorParrafoInternetIndex3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.spanInternetHogar,
+.h3InternetHogar{
+    width: 400px;
+    text-align: center;
+}
+
+.aInternetHogar{
+    text-decoration: none;
+    color: white;
+}
+
+.imagenInternetHogar{
+    object-fit:fill;
+    width: 300px;
+    animation-name:internetHogar ;
+    animation-duration: 3.5s;
+    animation-timing-function: ease;
+}
+
+@keyframes internetHogar{
+    from{
+        transform: translateX(150%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+/* codigo interne plan hogar*/
+.contenedorParrafoInternetIndex4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.spanInternetSeguridad,
+.h3InternetSeguridad{
+    width: 400px;
+    text-align: center;
+}
+
+.aInternetSeguridad{
+    text-decoration: none;
+    color: white;
+}
+
+.imagenInternetSeguridad{
+    object-fit:fill;
+    width: 400px;
+    animation-name: internetSeguridad;
+    animation-duration: 4.5s;
+    animation-timing-function: ease;
+}
+
+@keyframes internetSeguridad{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+
+}
+
+/* codigo interne plan hogar*/
+.contenedorParrafoInternetIndex5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.spanInternetSMantenimiento,
+.h3InternetSMantenimiento{
+    width: 400px;
+    text-align: center;
+}
+
+.aInternetMantenimiento{
+    text-decoration: none;
+    color: white;
+}
+
+.imagenInternetMantenimiento{
+    object-fit:fill;
+    width: 400px;
+    animation-name: internetMantenimiento;
+    animation-duration: 4.5s;
+    animation-timing-function: ease;
+}
+
+@keyframes internetMantenimiento{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .parrafoInternetIndex{
+        max-width: 100%;
+        padding: 0 15px 0 15px;
+        text-align: justify;
+    }
+
+    .contenedorParrafoInternetIndex1,
+    .contenedorParrafoInternetIndex2,
+    .contenedorParrafoInternetIndex3,
+    .contenedorParrafoInternetIndex4,
+    .contenedorParrafoInternetIndex5{
+        max-width: 600px;
+        margin: 0 20px 0 20px;
+        flex-direction: column-reverse;
+    }
+
+    .imagenInternetEmpresarial1,
+    .imagenInternetSatelital,
+    .imagenInternetHogar,
+    .imagenInternetSeguridad,
+    .imagenInternetMantenimiento{
+        margin-top: 30px;
+        margin-bottom: -10px;
+    }
+
+    .imagenInternetEmpresarial1{
+        max-width: 100%;
+    }
+
+    .imagenInternetSeguridad,
+    .imagenInternetMantenimiento{
+        max-width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .parrafoInternetIndex{
+        max-width: 100%;
+        padding: 0 15px 0 15px;
+        text-align: justify;
+    }
+
+    .contenedorParrafoInternetIndex1,
+    .contenedorParrafoInternetIndex2,
+    .contenedorParrafoInternetIndex3,
+    .contenedorParrafoInternetIndex4,
+    .contenedorParrafoInternetIndex5{
+        max-width: 600px;
+        margin: 0 20px 0 20px;
+        margin-left: 80px;
+        flex-direction: column-reverse;
+    }
+
+    .imagenInternetEmpresarial1,
+    .imagenInternetSatelital,
+    .imagenInternetHogar,
+    .imagenInternetSeguridad,
+    .imagenInternetMantenimiento{
+        margin-top: 30px;
+        margin-bottom: -10px;
+    }
+
+    .imagenInternetEmpresarial1{
+        max-width: 70%;
+    }
+
+    .imagenInternetSeguridad,
+    .imagenInternetMantenimiento{
+        max-width: 100%;
+    }
+}
+

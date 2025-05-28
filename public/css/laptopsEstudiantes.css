@@ -1,0 +1,55 @@
+body{
+    background-image: url(/public/image/laptops.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contenedorLaptopEstudiante{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 300px;
+    margin-top: 30px;
+}
+
+.aLaptopEstudiante{
+    text-decoration: none;
+    color: white;
+}
+
+.subContenedorLaptopEstudiante{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    transition-duration: 1s;
+}
+
+.imagenLaptopEstudiante{
+    width: 100%;
+    max-width: 300px;
+}
+
+.subContenedorLaptopEstudiante:hover{
+    padding: 10px;
+    border-radius: 20px;
+    transform: scale(1.2);
+}
+
+.imagenLaptopEstudiante1{
+    width: 100%;
+    max-width: 400px;
+
+}
+
+.subContenedorLaptopEstudiante1:hover{
+    padding: 10px;
+    border-radius: 20px;
+    transform: scale(1.2);
+}
+
+

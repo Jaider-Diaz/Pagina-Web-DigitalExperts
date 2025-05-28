@@ -1,0 +1,54 @@
+body{
+    background-image: url(/public/image/Fondo\ diseño\ y\ edicion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contenedorLaptopDiseñoEdicion{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,2fr));
+    padding: 10px;
+    gap: 30px;
+    margin: 40px;
+}
+
+.cardDiseñoEdicion{
+    background-color: white;
+    border-radius: 20px;
+    border: solid 2px rgba(0, 0, 0, 0.685);
+    padding: 20px;
+    text-align: center;
+    transition-duration: 1s;
+}
+
+.cardDiseñoEdicion:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 7px 7px black;
+}
+
+.imagenDiseñoEdicion{
+    width: 100%;
+    max-width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.h2DiseñoEdicion{
+    color: #00c3ff;
+    font-size: 1.3rem;
+}
+
+.pDiseñoEdicion{
+    color: rgba(0, 0, 0, 0.949);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.613);
+    flex-direction: column;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.aLaptopsDiseño{
+    text-decoration: none;
+    color: #00c3ff;
+    font-size: 1.2rem;
+}

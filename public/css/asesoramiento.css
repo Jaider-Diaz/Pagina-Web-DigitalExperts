@@ -1,0 +1,81 @@
+.tituloAsesoramiento{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contenedorDeScripcionAsesoramietno{
+    display: grid;
+    place-items: center;
+}
+
+.deScripcionAsesoramietno{
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 30px;
+}
+
+.spanAsesoramiento{
+    font-size: 1.5em;
+    margin-left: 100px;
+}
+
+.contenedorListaAsesoramiento{
+    display: flex;
+    justify-content: start;
+    margin-left: 100px;
+}
+
+.ulAcesoramiento{
+    padding: 20px;
+}
+
+.liAcesoramiento{
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+.liAcesoramiento .aAsesoramiento{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 450px) {
+    .tituloAsesoramiento{
+        font-size: 1em;
+    }
+
+    .deScripcionAsesoramietno{
+        max-width: 700px;
+        padding: 0 15px 0 15px;
+        text-align: justify;
+    }
+
+    .spanAsesoramiento{
+        font-size: 1em;
+        margin-left: 0;
+        text-align: justify;
+        padding: 0 15px 0 15px;
+    }
+
+    .contenedorListaAsesoramiento{
+        margin-left: 20px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .deScripcionAsesoramietno{
+        max-width: 600px;
+    }
+
+    .contenedorListaAsesoramiento{
+        margin-left: 90px;
+        margin-bottom: 0%;
+    }
+
+    .contenedorListaAsesoramiento{
+        margin-bottom: 152px;
+    }
+}

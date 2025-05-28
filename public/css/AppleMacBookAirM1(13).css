@@ -1,0 +1,141 @@
+.contenedorDescripcionLaptop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.imagenDescripcionLaptopMacBookAirM1-13{
+    width: 100%;
+    max-width: 400px;
+}
+
+.parrafoDescripcionMacBookAirM1-13{
+    width: 100%;
+    max-width: 600px;
+    text-align: justify;
+}
+
+/* codigo partes de laptop*/
+.contenedorPartesLaptopMacBookAirM1-13{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.imagenParte{
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+}
+
+/*codigo caracteristica y garantia laptop*/
+.contenedorCaracteristica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.ulCaracteristicaLaptopMacBookAirM1-13{
+    width: 100%;
+    max-width: 50%;
+}
+
+.contendorGarantia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 50px;
+}
+
+.spanGarantia{
+    width: 100%;
+    max-width: 50%;
+}
+
+/*codigo articulos adicionales latop
+
+.contenedorArticulosAdicionales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ececec;
+    padding: 40px;
+    margin: 20px;
+}
+
+.subcontenedorArticulosAdicionales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 20px;
+    background-color: white;
+    height: 250px;
+    padding: 20px;
+}
+
+.imageneArticuloAdicional{
+    width: 100%;
+    object-fit: fill;
+}
+
+.spanArticuloAdicional{
+    color: black;
+    margin-top: 50px;
+    text-align: center;
+    margin: 20px;
+}
+
+.imageneArticuloAdicionalHover{
+    width: 100%;
+    max-width: 300px;
+    display: none;
+}
+*/
+
+.tituloContactoMacBookAirM1-13{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorContactoMacBookAirM1-13{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorDetailsMacBookAirM1-13{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly; 
+    margin: 40px;
+}
+
+details {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: white;
+    }
+    summary {
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    padding: 15px;
+    }
+
+    details[open] {
+    color: black;
+    text-align: center;
+    }
+

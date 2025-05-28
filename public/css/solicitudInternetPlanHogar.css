@@ -1,0 +1,57 @@
+
+.ContenedorformularioSolicitarInternetHogar {
+    margin-top: 30px;
+    display: grid;
+    place-items: center;
+}
+
+.tituloFormularioPlanHogar{
+    color:  #1d3557;
+    font-size: 1.4rem;
+}
+
+.spanFormularioHogar {
+    color: #333;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.form-contacto-Hogar{
+    width: 100%;
+    max-width: 600px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.form-contacto-Hogar .inputFormularioHogar,
+.form-contacto-Hogar .selecFormularioHogar,
+.form-contacto-Hogar .textereaFormularioHogar{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.form-contacto-Hogar .inputFormularioHogar   :focus,
+.form-contacto-Hogar .selecFormularioHogar   :focus,
+.form-contacto-Hogar .textereaFormularioHogar:focus {
+    border-color: #1d3557;
+}
+
+.botonFormularioHogar {
+    background:#00c3ff;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}

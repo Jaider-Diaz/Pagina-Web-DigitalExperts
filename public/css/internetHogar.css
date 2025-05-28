@@ -1,0 +1,134 @@
+/*codigo planes internet satelital*/
+.internet-hogar {
+    text-align: center;
+    padding: 40px;
+}
+
+.tituloInternetHogar {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #00c3ff;
+}
+
+.descripcionInternetHogar {
+    margin-left: 20%;
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 50px;
+}
+
+.contenedorPlanesInternetHogar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.plan-card-internetHogar {
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px #1d3557;
+    transition: transform 0.3s ease;
+    flex-direction: column;
+}
+
+.plan-card-internetHogar:hover {
+    transform: scale(1.05);
+    border-color: #1d3557;
+}
+
+.h3InternetHogar {
+    font-size: 1.3em;
+    color: #1d3557;
+    margin-bottom: 5px;
+}
+
+.velocidadInternetHogar {
+    font-size: 1.1em;
+    color: #457b9d;
+    margin-bottom: 5px;
+}
+
+.capacidadInternetHogar {
+    font-size: 1.1em;
+    color: #457b9d;
+    margin-bottom: 5px;
+}
+
+.precioInternetHogar {
+    font-size: 1.1em;
+    color: #e63946;
+    margin-bottom: 5px;
+}
+
+
+.plan-card-internetHogar .ulInternetHogar .liInternetHogar {
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 0.95em;
+    list-style-type: none;
+    text-align: left;
+}
+
+/*codigo boton*/
+
+.contenedorBotonPlanesInternetHogar {
+    display: grid;
+    place-items: center;
+}
+
+.botonPlanesHogar {
+    width: 100%;
+    max-width: 150px;
+    margin-top: 10px;
+    background: #00c3ff;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+.botonPlanesHogar .aPlanesHogar {
+    text-decoration: none;
+    color: white;
+}
+
+.botonPlanesHogarBásicoFamiliar,
+.botonPlanesHogarPlanStreaming {
+    width: 100%;
+    max-width: 150px;
+    margin-top: 35px;
+    background: #00c3ff;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+
+.botonPlanesHogarBásicoFamiliar .aPlanesHogar {
+    text-decoration: none;
+    color: white;
+}
+
+.botonPlanesHogarPlanStreaming .aPlanesHogar {
+    text-decoration: none;
+    color: white;
+}
+
+.botonPlanesHogarUltraHogar {
+    width: 100%;
+    max-width: 150px;
+    margin-top: 27px;
+    background: #00c3ff;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+.botonPlanesHogarUltraHogar .aPlanesHogar {
+    text-decoration: none;
+    color: white;
+}

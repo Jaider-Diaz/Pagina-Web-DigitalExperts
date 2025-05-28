@@ -1,0 +1,100 @@
+body {
+    background-image: url(/public/image/imagen\ seguridad\ en\ redes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.seguridad-redes {
+    color: #fff;
+    padding: 60px 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.container-seguridad {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.container-seguridad .h2SeguridadRedes {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #00c3ff;
+}
+
+.descripcion {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.servicio-seguridad {
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.servicio-seguridad:hover {
+    transform: scale(1.02);
+}
+
+.servicio-seguridad .h3SeguridadRedes{
+    color: #00c3ff;
+    margin-bottom: 20px;
+}
+
+.servicio-seguridad .ulSeguridadRedes {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
+}
+
+.servicio-seguridad .ulSeguridadRedes .liSeguridadRedes {
+    padding: 8px 0;
+    border-bottom: 1px solid black;
+}
+
+.boton-cotizar {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #00c3ff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background 0.3s ease;
+}
+
+.boton-cotizar:hover {
+    background-color: #00a6d6;
+}
+
+.contacto-extra {
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.contacto-extra .aSeguridadRedes {
+    color:  #00c3ff;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 450px) {
+    .h2SeguridadRedes{
+        font-size: 2em !important;
+    }
+
+    .h3SeguridadRedes{
+        font-size: 1em;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+}
